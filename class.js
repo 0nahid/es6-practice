@@ -7,4 +7,5 @@ class student {
 }
 const student1 = new student(1001,'Nahid');
 const student2 = new student(1002,'Hassan');
-console.log(student1, student2);
+const student3 = new student(1003, 'Bappy')
+console.log(student1, student2, student3);
