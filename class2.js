@@ -50,6 +50,9 @@ class Child extends Parent {
         super()
         this.name = name;
     }
+    getName() {
+        return this.fatherName + ' ' + this.name;
+    }
 }
 const baby = new Child('Patal');
-console.log(baby);
+console.log(baby.getName());
