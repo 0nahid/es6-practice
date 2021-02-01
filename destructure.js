@@ -21,6 +21,17 @@ const {
     address
 } = person;
 
+const complexObject = {
+    name: 'Nahid Hassan Bulbul',
+    info: {
+        address = 'Dhaka',
+        leader = 'Tiger'
+    }
+}
+const {
+    leader
+} = complexObject.info;
+
 console.log(gf);
 console.log(phone);
 console.log(address);
